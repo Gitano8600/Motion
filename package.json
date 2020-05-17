@@ -1,0 +1,19 @@
+{
+  "name": "motionproject",
+  "version": "1.0.0",
+  "description": "Social Media Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch ./sass/main.scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.propulsion-home.ch:Manuel-Nellen/week-01/day-05.git"
+  },
+  "author": "Manuel Nellen",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

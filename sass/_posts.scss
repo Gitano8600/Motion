@@ -1,0 +1,24 @@
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header {
+    //border: solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left-header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+main {
+    border: solid black;
+}

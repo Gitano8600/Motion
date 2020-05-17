@@ -1,0 +1,184 @@
+:root {
+  --white: #ffffff; }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
+  outline: none; }
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  header .left-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column; }
+
+main {
+  border: solid black; }
+
+.login-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex; }
+  .login-container.left {
+    width: 40%;
+    background-image: url("../assets/background_image.png"), linear-gradient(102deg, #c568ff 0%, #6e91f6);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 600px; }
+    .login-container.left .upper {
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      padding-bottom: 5vh;
+      max-width: 20vw;
+      min-width: 320px; }
+      .login-container.left .upper h1 {
+        color: white;
+        font-weight: normal;
+        font-size: 1.875rem;
+        margin-bottom: 25px; }
+      .login-container.left .upper .motion-logo {
+        margin-bottom: 15px; }
+      .login-container.left .upper p {
+        font-size: 1rem;
+        color: white;
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 25px;
+        opacity: 0.6; }
+      .login-container.left .upper .button-wrapper {
+        display: flex;
+        align-self: center;
+        flex-wrap: nowrap; }
+        .login-container.left .upper .button-wrapper button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          padding: 0.5em 1em;
+          font-weight: 500;
+          text-decoration: none;
+          margin: 1vh;
+          border-radius: 100px;
+          border: solid 2px #a29aec;
+          height: 75%;
+          background-color: transparent; }
+          .login-container.left .upper .button-wrapper button #apple {
+            width: 78.9px;
+            height: 17.4px; }
+          .login-container.left .upper .button-wrapper button #google {
+            width: 85px;
+            height: 15.4px; }
+    .login-container.left .lower {
+      /*border: solid green;*/
+      display: flex;
+      height: 30vh;
+      padding-top: 5vh;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center; }
+      .login-container.left .lower .button-wrapper-lower {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-bottom: 5vh; }
+        .login-container.left .lower .button-wrapper-lower button {
+          margin: 0.5em;
+          border-radius: 50%;
+          border: none;
+          text-align: center;
+          background-color: #bab5e8;
+          color: #a28bd6;
+          height: 40px;
+          width: 40px; }
+      .login-container.left .lower span {
+        margin-bottom: 4vh;
+        height: 1rem;
+        color: white;
+        font-size: 0.75rem; }
+  .login-container.right {
+    width: 60%;
+    background-color: white;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 600px;
+    height: 100vh; }
+    .login-container.right .signin-area {
+      align-self: flex-end;
+      display: flex;
+      margin-right: 2vw;
+      flex-grow: 1;
+      font-size: 0.75rem;
+      align-items: center; }
+      .login-container.right .signin-area button, .login-container.right .signin-area p {
+        margin: 2vh 1vw; }
+      .login-container.right .signin-area button {
+        width: 120px;
+        height: 40px;
+        background-color: transparent;
+        color: black;
+        text-align: center;
+        border: solid 2px #e0e0e0;
+        border-radius: 30px;
+        font-size: 0.5625rem;
+        letter-spacing: 0.1em; }
+    .login-container.right .credentials-wrapper {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 9;
+      text-align: center;
+      flex-grow: 7;
+      padding-top: 7vh; }
+      .login-container.right .credentials-wrapper h1 {
+        font-size: 1.875rem;
+        font-weight: normal;
+        margin-bottom: 5vh; }
+      .login-container.right .credentials-wrapper .input-area {
+        width: 20vw;
+        height: 10vh;
+        border-bottom: solid 2px #e0e0e0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 340px; }
+      .login-container.right .credentials-wrapper ::placeholder {
+        color: black; }
+      .login-container.right .credentials-wrapper input, .login-container.right .credentials-wrapper i {
+        margin-top: 30px; }
+      .login-container.right .credentials-wrapper input {
+        border: none;
+        font-size: 0.875rem;
+        color: black; }
+      .login-container.right .credentials-wrapper i {
+        color: #a580ff;
+        margin-right: 1vw; }
+      .login-container.right .credentials-wrapper #submit-button {
+        margin-top: 8vh;
+        border-radius: 30px;
+        width: 260px;
+        height: 60px;
+        background: linear-gradient(102deg, #c568ff 0%, #6e91f6);
+        color: white;
+        align-self: center;
+        border: none;
+        font-size: 0.75rem;
+        letter-spacing: 0.1em; }
