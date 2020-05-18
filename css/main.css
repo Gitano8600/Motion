@@ -24,9 +24,6 @@ header {
     align-items: center;
     flex-direction: column; }
 
-main {
-  border: solid black; }
-
 .login-container {
   width: 100vw;
   height: 100vh;
@@ -182,3 +179,7 @@ main {
         border: none;
         font-size: 0.75rem;
         letter-spacing: 0.1em; }
+
+@media screen and (max-width: 992px) {
+  .login-container {
+    flex-direction: column; } }
